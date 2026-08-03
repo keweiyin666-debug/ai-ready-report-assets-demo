@@ -119,6 +119,6 @@ Email: 841806847@qq.com
 
 WeChat:
 
-![WeChat QR code](assets/wechat-qr.png)
+<img src="assets/wechat-qr.png" alt="WeChat QR code" width="180" />
 
 添加微信时，建议备注「报表资产治理」。
