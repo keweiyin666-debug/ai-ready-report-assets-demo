@@ -40,7 +40,6 @@ screenshots/
   05-mcp-query-result.svg
 media/
   demo-walkthrough-storyboard.md
-CONTACT.md
 SECURITY.md
 NOTICE
 ```
@@ -112,4 +111,13 @@ AI 不直接猜答案，而是先检索资产、确认口径、定位来源，�
 - AI 问数回答看起来像，但没有可追溯证据；
 - 希望让企业 AI 助手 / Copilot / Agent 先查资产，再回答问题。
 
-联系方式见 [CONTACT.md](CONTACT.md)。
+## Contact
+
+如果你对报表资产解析、BI 资产治理、AI 问数上下文构建或 MCP 接入感兴趣，可以通过下面的方式联系：
+
+```text
+Email: 841806847@qq.com
+WeChat: 13270419943
+```
+
+添加微信时，建议备注「报表资产治理」。
