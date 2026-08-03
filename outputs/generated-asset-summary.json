@@ -1,0 +1,31 @@
+{
+  "asset_id": "demo_po_so_consistency",
+  "asset_name": "PO-SO 一致性分析报表",
+  "asset_type": "report",
+  "source_tool": "finereport",
+  "status": "production",
+  "business_domain": "销售与供应链协同",
+  "spec_version": "2.3",
+  "summary": {
+    "source_file_count": 1,
+    "dataset_count": 24,
+    "source_table_count": 10,
+    "output_field_count": 16,
+    "searchable_field_count": 65,
+    "metric_candidate_count": 0
+  },
+  "ai_ready_context": {
+    "can_search_by_keyword": true,
+    "can_read_spec": true,
+    "can_trace_source_tables": true,
+    "can_analyze_table_impact": true,
+    "can_provide_mcp_context": true
+  },
+  "example_questions": [
+    "这个报表的取数口径是什么？",
+    "PO 与 SO 的数量为什么不一致？",
+    "这张表被哪些报表引用？",
+    "如果修改订单明细视图，会影响哪些报表？"
+  ]
+}
+

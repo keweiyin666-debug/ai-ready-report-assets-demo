@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f5f7fb"/>
+  <rect x="40" y="44" width="535" height="620" rx="20" fill="#fff" stroke="#e5e7eb"/>
+  <rect x="605" y="44" width="555" height="620" rx="20" fill="#fff" stroke="#e5e7eb"/>
+  <text x="72" y="92" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">扫描任务</text>
+  <text x="72" y="132" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">主链路优先展示扫描入口、当前进度和最近任务摘要。</text>
+  <rect x="72" y="190" width="456" height="56" rx="12" fill="#f8fafc" stroke="#e5e7eb"/>
+  <text x="94" y="226" font-family="Arial, sans-serif" font-size="18" fill="#111827">anonymous-fr · BI 报表源</text>
+  <rect x="72" y="288" width="456" height="58" rx="13" fill="#2563eb"/>
+  <text x="265" y="325" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#fff">开始扫描</text>
+  <line x1="72" y1="390" x2="528" y2="390" stroke="#e5e7eb"/>
+  <text x="240" y="397" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">或 上传文件触发扫描</text>
+  <rect x="72" y="440" width="330" height="60" rx="12" fill="#fff" stroke="#e5e7eb"/>
+  <text x="96" y="477" font-family="Arial, sans-serif" font-size="18" fill="#111827">选择资产文件</text>
+  <rect x="420" y="440" width="108" height="60" rx="12" fill="#2563eb"/>
+  <text x="474" y="477" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#fff">上传并扫描</text>
+  <rect x="72" y="535" width="456" height="86" rx="14" fill="#eef4ff" stroke="#dbeafe"/>
+  <text x="96" y="570" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#111827">等待扫描</text>
+  <rect x="96" y="592" width="400" height="12" rx="6" fill="#d8e2f1"/>
+  <text x="96" y="626" font-family="Arial, sans-serif" font-size="15" fill="#6b7280">请选择目录或文件后开始扫描。</text>
+  <text x="637" y="92" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">运行报告</text>
+  <text x="637" y="132" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">扫描成功率、失败 Top 与 Registry 入库状态。</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="637" y="175" width="230" height="96" rx="12" fill="#f8fafc" stroke="#e5e7eb"/>
+    <text x="662" y="222" font-size="30" font-weight="700" fill="#111827">7,200+</text>
+    <text x="662" y="252" font-size="16" fill="#6b7280">资产对象</text>
+    <rect x="890" y="175" width="230" height="96" rx="12" fill="#f8fafc" stroke="#e5e7eb"/>
+    <text x="915" y="222" font-size="30" font-weight="700" fill="#111827">1</text>
+    <text x="915" y="252" font-size="16" fill="#6b7280">扫描任务</text>
+    <rect x="637" y="300" width="230" height="96" rx="12" fill="#f8fafc" stroke="#e5e7eb"/>
+    <text x="662" y="347" font-size="30" font-weight="700" fill="#111827">99.99%</text>
+    <text x="662" y="377" font-size="16" fill="#6b7280">当前成功率</text>
+    <rect x="890" y="300" width="230" height="96" rx="12" fill="#f8fafc" stroke="#e5e7eb"/>
+    <text x="915" y="347" font-size="30" font-weight="700" fill="#111827">1</text>
+    <text x="915" y="377" font-size="16" fill="#6b7280">当前隔离</text>
+  </g>
+  <text x="637" y="455" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">当前失败 Top</text>
+  <rect x="637" y="485" width="483" height="86" rx="12" fill="#f8fafc" stroke="#e5e7eb"/>
+  <text x="662" y="525" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">原始文件和隔离文件均不存在，无法重试</text>
+  <text x="662" y="555" font-family="Arial, sans-serif" font-size="15" fill="#6b7280">出现 1 次</text>
+</svg>
+

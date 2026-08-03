@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f5f7fb"/>
+  <rect x="40" y="44" width="330" height="640" rx="18" fill="#fff" stroke="#e5e7eb"/>
+  <rect x="395" y="44" width="765" height="640" rx="18" fill="#fff" stroke="#e5e7eb"/>
+  <text x="70" y="92" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">资产浏览器</text>
+  <rect x="260" y="70" width="76" height="50" rx="25" fill="#eef2f7"/>
+  <text x="298" y="101" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#111827">7200+</text>
+  <text x="70" y="135" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">先选资产，再查看图谱、文件路径和治理字段。</text>
+  <rect x="70" y="188" width="270" height="52" rx="12" fill="#fff" stroke="#e5e7eb"/>
+  <text x="92" y="221" font-family="Arial, sans-serif" font-size="16" fill="#111827">po_so_consistency</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="70" y="300" width="270" height="95" rx="12" fill="#fff" stroke="#e5e7eb"/>
+    <text x="92" y="332" font-size="18" font-weight="700" fill="#111827">capacity_completion_summary</text>
+    <text x="92" y="360" font-size="14" fill="#6b7280">产能达成汇总</text>
+    <text x="92" y="386" font-size="14" fill="#2563eb">finereport · report · production</text>
+    <rect x="70" y="415" width="270" height="95" rx="12" fill="#fff" stroke="#e5e7eb"/>
+    <text x="92" y="447" font-size="18" font-weight="700" fill="#111827">po_so_consistency</text>
+    <text x="92" y="475" font-size="14" fill="#6b7280">PO-SO 一致性分析</text>
+    <text x="92" y="501" font-size="14" fill="#2563eb">finereport · report · production</text>
+  </g>
+  <text x="430" y="92" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#2563eb">当前资产工作区</text>
+  <text x="430" y="135" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#111827">po_so_consistency</text>
+  <text x="430" y="178" font-family="Arial, sans-serif" font-size="18" fill="#6b7280">PO-SO 一致性分析的 FineReport 资产说明</text>
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="700">
+    <rect x="430" y="206" width="86" height="34" rx="17" fill="#eef4ff"/><text x="473" y="228" text-anchor="middle" fill="#1d4ed8">finereport</text>
+    <rect x="528" y="206" width="86" height="34" rx="17" fill="#f3f4f6"/><text x="571" y="228" text-anchor="middle" fill="#374151">综合分析</text>
+    <rect x="626" y="206" width="106" height="34" rx="17" fill="#dcfce7"/><text x="679" y="228" text-anchor="middle" fill="#16a34a">production</text>
+    <rect x="744" y="206" width="92" height="34" rx="17" fill="#eef2f7"/><text x="790" y="228" text-anchor="middle" fill="#374151">Spec v2.3</text>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <rect x="860" y="84" width="130" height="78" rx="12" fill="#f8fafc" stroke="#e5e7eb"/><text x="885" y="124" font-size="28" font-weight="700">24</text><text x="885" y="148" font-size="15" fill="#6b7280">数据集</text>
+    <rect x="1010" y="84" width="130" height="78" rx="12" fill="#f8fafc" stroke="#e5e7eb"/><text x="1035" y="124" font-size="28" font-weight="700">16</text><text x="1035" y="148" font-size="15" fill="#6b7280">字段</text>
+  </g>
+  <rect x="430" y="280" width="690" height="335" rx="14" fill="#f8fbff" stroke="#dbeafe"/>
+  <text x="470" y="335" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#2563eb">对象图谱：报表 -> 数据集 -> 源表 -> 输出字段</text>
+  <g stroke="#94a3b8" stroke-width="2" fill="none">
+    <path d="M545 480 C620 430, 620 380, 700 365"/>
+    <path d="M545 480 C625 475, 630 480, 700 480"/>
+    <path d="M545 480 C620 535, 620 565, 700 585"/>
+    <path d="M820 365 C880 350, 900 335, 965 330"/>
+    <path d="M820 480 C880 480, 900 478, 965 476"/>
+    <path d="M820 585 C880 600, 900 610, 965 610"/>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <rect x="455" y="450" width="150" height="62" rx="12" fill="#e0f2fe" stroke="#7dd3fc"/><text x="530" y="486" font-size="16" font-weight="700" text-anchor="middle">report</text>
+    <rect x="700" y="335" width="120" height="58" rx="12" fill="#e0f2fe" stroke="#7dd3fc"/><text x="760" y="370" font-size="15" font-weight="700" text-anchor="middle">head_po</text>
+    <rect x="700" y="450" width="120" height="58" rx="12" fill="#e0f2fe" stroke="#7dd3fc"/><text x="760" y="485" font-size="15" font-weight="700" text-anchor="middle">po_so_detail</text>
+    <rect x="700" y="555" width="120" height="58" rx="12" fill="#e0f2fe" stroke="#7dd3fc"/><text x="760" y="590" font-size="15" font-weight="700" text-anchor="middle">head_customer</text>
+    <rect x="965" y="300" width="125" height="58" rx="12" fill="#dcfce7" stroke="#86efac"/><text x="1028" y="335" font-size="15" font-weight="700" text-anchor="middle">so_num</text>
+    <rect x="965" y="446" width="125" height="58" rx="12" fill="#dcfce7" stroke="#86efac"/><text x="1028" y="481" font-size="15" font-weight="700" text-anchor="middle">po_num</text>
+    <rect x="965" y="580" width="125" height="58" rx="12" fill="#dcfce7" stroke="#86efac"/><text x="1028" y="615" font-size="15" font-weight="700" text-anchor="middle">customer</text>
+  </g>
+</svg>
+

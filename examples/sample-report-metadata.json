@@ -1,0 +1,50 @@
+{
+  "report_name": "PO-SO 一致性分析报表",
+  "report_type": "FineReport CPT",
+  "business_domain": "销售与供应链协同",
+  "description": "用于分析销售订单与采购订单在客户、物料、数量和交付日期上的一致性。",
+  "parameters": [
+    {
+      "name": "date_from",
+      "label": "SO 下单日期开始",
+      "type": "date"
+    },
+    {
+      "name": "date_to",
+      "label": "SO 下单日期结束",
+      "type": "date"
+    },
+    {
+      "name": "sales_group",
+      "label": "销售组",
+      "type": "multi_select"
+    },
+    {
+      "name": "material_code",
+      "label": "物料号",
+      "type": "text"
+    }
+  ],
+  "datasets": [
+    "head_po",
+    "head_salesman",
+    "head_customer",
+    "po_so_detail"
+  ],
+  "source_tables": [
+    "mfg_olap.v_order_sales_detail",
+    "mfg_olap.v_purchase_order_detail",
+    "mfg_dw.dim_customer",
+    "mfg_dw.dim_material"
+  ],
+  "output_fields": [
+    "so_num",
+    "po_num",
+    "customer_name",
+    "salesman",
+    "material_code",
+    "delivery_date",
+    "consistency_result"
+  ]
+}
+

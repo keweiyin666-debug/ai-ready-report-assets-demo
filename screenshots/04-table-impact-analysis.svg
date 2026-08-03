@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f5f7fb"/>
+  <rect x="55" y="50" width="1090" height="620" rx="18" fill="#fff" stroke="#e5e7eb"/>
+  <text x="90" y="98" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#111827">表字段引用反查</text>
+  <text x="90" y="135" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">输入物理数据库表名，查看哪些报表资产引用了该表、用了哪些数据集、SQL 是什么。</text>
+  <rect x="90" y="182" width="815" height="56" rx="12" fill="#fff" stroke="#e5e7eb"/>
+  <text x="115" y="217" font-family="Arial, sans-serif" font-size="18" fill="#111827">mfg_olap.v_order_sales_detail</text>
+  <rect x="925" y="182" width="95" height="56" rx="12" fill="#fff" stroke="#e5e7eb"/>
+  <text x="973" y="217" font-family="Arial, sans-serif" font-size="17" text-anchor="middle" fill="#111827">精确匹配</text>
+  <rect x="1035" y="182" width="80" height="56" rx="12" fill="#2563eb"/>
+  <text x="1075" y="217" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#fff">查询</text>
+  <text x="90" y="292" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111827">表 mfg_olap.v_order_sales_detail 的引用情况</text>
+  <rect x="390" y="266" width="220" height="40" rx="8" fill="#fff" stroke="#ef4444" stroke-width="3"/>
+  <text x="500" y="292" font-family="Arial, sans-serif" font-size="17" text-anchor="middle" fill="#6b7280">10 个报表 · 34 处数据集引用</text>
+  <rect x="90" y="340" width="1025" height="260" rx="14" fill="#f8fafc" stroke="#e5e7eb"/>
+  <g font-family="Arial, sans-serif">
+    <rect x="90" y="340" width="1025" height="54" rx="14" fill="#f1f5f9"/>
+    <text x="120" y="374" font-size="16" font-weight="700" fill="#2563eb">po_so_consistency · 4 个数据集</text>
+    <text x="940" y="374" font-size="15" fill="#2563eb">查看资产详情</text>
+    <text x="120" y="440" font-size="19" font-weight="700" fill="#111827">po_so_detail</text>
+    <text x="120" y="485" font-size="15" fill="#6b7280">命中源表</text>
+    <rect x="205" y="466" width="230" height="34" rx="17" fill="#e0ecff"/><text x="320" y="488" font-size="15" text-anchor="middle" fill="#1d4ed8">mfg_olap.v_order_sales_detail</text>
+    <text x="120" y="542" font-size="15" fill="#6b7280">输出列</text>
+    <rect x="185" y="524" width="84" height="34" rx="17" fill="#eef2f7"/><text x="227" y="546" font-size="15" text-anchor="middle" fill="#111827">so_num</text>
+    <rect x="284" y="524" width="95" height="34" rx="17" fill="#eef2f7"/><text x="332" y="546" font-size="15" text-anchor="middle" fill="#111827">customer</text>
+    <rect x="394" y="524" width="120" height="34" rx="17" fill="#eef2f7"/><text x="454" y="546" font-size="15" text-anchor="middle" fill="#111827">material_code</text>
+  </g>
+  <rect x="90" y="620" width="1025" height="1" fill="#e5e7eb"/>
+  <text x="90" y="648" font-family="Arial, sans-serif" font-size="15" fill="#6b7280">用途：数据库表变更前，先评估哪些报表和数据集会受到影响。</text>
+</svg>
+

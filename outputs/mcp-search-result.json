@@ -1,0 +1,33 @@
+{
+  "tool": "asset_search",
+  "arguments": {
+    "keyword": "产能",
+    "source_tool": "finereport",
+    "limit": 10
+  },
+  "result": {
+    "matched_count": 10,
+    "items": [
+      {
+        "asset_id": "demo_capacity_completion_summary",
+        "name": "产能达成汇总",
+        "directory": "Manufacturing/Production/Capacity",
+        "source_tool": "finereport"
+      },
+      {
+        "asset_id": "demo_daily_production",
+        "name": "日产量报表",
+        "directory": "Manufacturing/Production/Daily",
+        "source_tool": "finereport"
+      },
+      {
+        "asset_id": "demo_equipment_capacity",
+        "name": "设备产能分析",
+        "directory": "Manufacturing/Equipment/Capacity",
+        "source_tool": "finereport"
+      }
+    ],
+    "assistant_hint": "这些报表覆盖成本模型、设备产能、产线日产能、排班产能和工段产能等场景。"
+  }
+}
+

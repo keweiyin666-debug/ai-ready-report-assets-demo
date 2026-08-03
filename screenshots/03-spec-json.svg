@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f5f7fb"/>
+  <rect x="40" y="44" width="330" height="640" rx="18" fill="#fff" stroke="#e5e7eb"/>
+  <rect x="395" y="44" width="765" height="640" rx="18" fill="#fff" stroke="#e5e7eb"/>
+  <text x="70" y="92" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">资产浏览器</text>
+  <rect x="70" y="155" width="270" height="52" rx="12" fill="#fff" stroke="#e5e7eb"/>
+  <text x="92" y="188" font-family="Arial, sans-serif" font-size="16" fill="#111827">po_so_consistency</text>
+  <g font-family="Arial, sans-serif">
+    <text x="430" y="92" font-size="30" font-weight="700" fill="#111827">PO-SO 一致性分析</text>
+    <text x="430" y="132" font-size="18" fill="#6b7280">Spec JSON：从报表中抽取 SQL、参数、数据集和字段</text>
+    <rect x="430" y="165" width="115" height="42" rx="12" fill="#2563eb"/><text x="488" y="192" text-anchor="middle" font-size="18" fill="#fff">Spec JSON</text>
+  </g>
+  <rect x="430" y="235" width="690" height="395" rx="10" fill="#0f172a"/>
+  <g font-family="Menlo, Consolas, monospace" font-size="15" fill="#d1d5db">
+    <text x="462" y="275">{</text>
+    <text x="486" y="305">"asset_id": "demo_po_so_consistency",</text>
+    <text x="486" y="335">"source_tool": "finereport",</text>
+    <text x="486" y="365">"business_domain": "销售与供应链协同",</text>
+    <text x="486" y="395">"datasets": [</text>
+    <text x="520" y="425">{ "name": "po_so_detail",</text>
+    <text x="544" y="455">"sql_preview": "select ... from mfg_olap.v_order_sales_detail ...",</text>
+    <text x="544" y="485">"source_tables": ["mfg_olap.v_order_sales_detail"],</text>
+    <text x="544" y="515">"output_columns": ["so_num", "po_num", "material_code"]</text>
+    <text x="520" y="545">}</text>
+    <text x="486" y="575">],</text>
+    <text x="486" y="605">"parameters": ["date_from", "date_to", "sales_group"]</text>
+    <text x="462" y="635">}</text>
+  </g>
+  <rect x="470" y="438" width="85" height="32" rx="5" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <text x="575" y="462" font-family="Arial, sans-serif" font-size="14" fill="#ef4444">SQL 结构化保留为 AI 可检索证据</text>
+</svg>
+
